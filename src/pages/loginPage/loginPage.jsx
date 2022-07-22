@@ -63,11 +63,10 @@ function LoginForm() {
   <form method='POST'>
           <input onChange={(event)=>{
             setEmail(event.target.value);
-          }} placeholder="Your Phone Number" type="number" required /> 
+          }} placeholder="Name ofDe-Addiction Center" type="number" required /> 
           <input onChange={(event)=>{
             setPassword(event.target.value);
           }} placeholder="Your financial requirement" type="number" required /> 
-          
            <Button onClick={(event)=>{handleSubmit(event)}} type="submit" id="button" variant="contained">SUBMIT</Button>
           
           </form>

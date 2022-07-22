@@ -20,7 +20,7 @@ const Contact = () => {
         <div className='container' id="CONTACT">
         <div className='container1'>
               <div className='title'>
-                <h1 style={{ fontSize:"50px"}}>CONTACT ME</h1>
+                <h1 style={{ fontSize:"50px"}}>CONTACT US</h1>
               </div>
               <form onSubmit={sendemail}>
                 <div className="total">

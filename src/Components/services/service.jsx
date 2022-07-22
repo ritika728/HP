@@ -8,10 +8,10 @@ function Services(){
     const navigate=useNavigate();
     return(
         
-        <>
+        <div className='hi'>
         <div id="SERVICES">
             <h1>TREATMENTS</h1>
-            <p>Together we will!</p>
+            <p>Together we will get over this! Please select the Problem by clicking on one of the above buttons</p>
              <div className='services'>
             {
                    
@@ -53,7 +53,7 @@ function Services(){
             }
             </div>
         </div>
-        </>
+        </div>
     )
 }
 export default Services;

@@ -19,7 +19,7 @@ import logo from '../../assets/inspera.png';
 export default function DrawerAppBar(props) {
 
   const drawerWidth = 240;
-  const navItems = ['HOME', 'SERVICES', 'LOGIN', 'ABOUT', 'CONTACT'];
+  const navItems = ['HOME', 'ABOUT', 'SERVICES', 'CONTACT'];
 
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);

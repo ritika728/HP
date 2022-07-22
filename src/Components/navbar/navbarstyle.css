@@ -3,7 +3,9 @@
 ::-webkit-scrollbar {
     width: 8px;
 }
-
+body{
+    background-color: rgb(10,25,47) !important;
+}
 ::-webkit-scrollbar-thumb {
     background-color: rgb(6, 65, 6);
 }

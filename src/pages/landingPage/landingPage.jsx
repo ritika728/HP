@@ -31,9 +31,8 @@ function LandingPage() {
                     </>
                 )
             }
-
-            <Services />
             <About/>
+            <Services />
             <ContactUs/>
 
         </>
