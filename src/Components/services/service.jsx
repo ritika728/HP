@@ -13,6 +13,7 @@ function Services(){
                         <div className='boxx'>
                             <div className='ph'>
                                 <img src={Alcohol} alt="im" />
+                                <h2>ALCOHOL ADDICTION</h2>
                             </div>
                         </div>
                     </div>
