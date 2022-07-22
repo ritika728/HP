@@ -30,7 +30,7 @@ function LoginForm() {
           navigate(`/dashboard/${id}`);
         }
         else{
-          alert("Either email/password wrong");
+          alert("Okay");
         }
       }).catch((err)=>{
         alert("Some error occurred. Please try again after some time");
@@ -38,22 +38,41 @@ function LoginForm() {
  }
   }
   return (
-    <div className="loginForm">
+    <div className='whole'>
+    <div className="loginForm1">
+      
 		<div className="header-text">
-			Login Form
+			BOOK COUNSELLING SESSION
 		</div>
     <form method='POST'>
             <input onChange={(event)=>{
               setEmail(event.target.value);
-            }} placeholder="Your Email Address" type="email" required /> 
+            }} placeholder="Your Phone Number" type="number" required /> 
             <input onChange={(event)=>{
               setPassword(event.target.value);
-            }} placeholder="Your Password" type="password" required /> 
-             <Button onClick={(event)=>{handleSubmit(event)}} type="submit" id="button" variant="contained">Login</Button>
-               
-            <span>Or Click here to <a href="/register">Register</a></span> 
+            }} placeholder="Time when you are available to have coversation" type="number" required /> 
+             <Button onClick={(event)=>{handleSubmit(event)}} type="submit" id="button" variant="contained">SUBMIT</Button>
+            
             </form>
 	</div>
+  <div className="loginForm">
+      
+  <div className="header-text">
+    FILL FOR FINANCIAL SUPPORT
+  </div>
+  <form method='POST'>
+          <input onChange={(event)=>{
+            setEmail(event.target.value);
+          }} placeholder="Your Phone Number" type="number" required /> 
+          <input onChange={(event)=>{
+            setPassword(event.target.value);
+          }} placeholder="Your financial requirement" type="number" required /> 
+          
+           <Button onClick={(event)=>{handleSubmit(event)}} type="submit" id="button" variant="contained">SUBMIT</Button>
+          
+          </form>
+</div>
+</div>
   )
 }
 
